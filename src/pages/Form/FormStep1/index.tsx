@@ -22,6 +22,9 @@ export const FormStep1 = () => {
             alert("Preencha os dados.");
         }
     }
+    const handleNextLogin = () => {
+            history.push('/step')
+    }
 
     const handleNameChange = (e: ChangeEvent<HTMLInputElement>) => {
         dispatch({
@@ -86,6 +89,9 @@ export const FormStep1 = () => {
     return (
         <Theme>
             <C.Container>
+                <h1>Ja tem cadastro?</h1>
+                <button onClick={handleNextLogin}>Fazer Login</button>
+                <hr/>
                 <p>Passo 1/3</p>
                 <h1>Vamos começar com seus dados principais</h1>
                 <p>Preencha todos os campo abaixo.</p>

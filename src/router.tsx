@@ -1,5 +1,6 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import { FormStep } from "./pages/Form/FormStep";
 import { FormStep1 } from "./pages/Form/FormStep1";
 import { FormStep2 } from "./pages/Form/FormStep2";
 import { FormStep3 } from "./pages/Form/FormStep3";
@@ -18,6 +19,7 @@ export const Router = () => {
       <Route path="/rockinrio" exact component={RockInRio} />
       <Route path="/eventos" exact component={Eventos} />
       <Route path="/shows" exact component={Shows} />
+      <Route path="/step" exact component={FormStep} />
       <Route path="/step1" exact component={FormStep1} />
       <Route path="/step2" component={FormStep2} />
       <Route path="/step3" component={FormStep3} />

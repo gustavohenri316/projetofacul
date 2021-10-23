@@ -9,12 +9,15 @@ import {
   Img,
 } from "./NavbarElements";
 import {Button ,Form, FormControl} from 'react-bootstrap'
+import { FaSearch } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <Img className="nav-logo" to="/"></Img>
+        <NavLink to="/">
+        <Img className="nav-logo"></Img>
+        </NavLink>
         <NavMenu>
           <Form className="d-flex" >
             <FormControl
@@ -22,10 +25,12 @@ const Navbar = () => {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
-              style={{borderRadius: "30px", width: "160px", height: "38px", color: "#000", backgroundColor: "transparent"}}
+              style={{borderRadius: "30px", width: "160px", height: "30px", color: "#FFF", backgroundColor: "#eeeeee", border: "none"}}
             />
             <Button variant="outline-success"
-            style={{borderRadius: "30px"}}>Search</Button>
+            style={{borderRadius: "30px", width: "60px", height: "38px", color: "#FFF", backgroundColor: "#0000ff", border: "none"}}>
+              <FaSearch/>
+            </Button>
           </Form>
 
           <NavLink to="/eventos">Eventos</NavLink>
