@@ -16,21 +16,21 @@ const Navbar = () => {
       <NavLink className="nav-logo" to="/"></NavLink>
           <NavMenu>
           
-            <NavLink to='/eventos' activeStyle>
+            <NavLink to='/eventos' >
               Eventos
             </NavLink>
-            <NavLink to='/rockinrio' activeStyle>
-              Rock In Rio
+            <NavLink to='/rockinrio' >
+              RockInRio
             </NavLink>
-            <NavLink to='/cinema' activeStyle>
+            <NavLink to='/cinema' >
               Cinemas
             </NavLink>
-            <NavLink to='/shows' activeStyle>
+            <NavLink to='/shows' >
               Shows
             </NavLink>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/step1'>Cadastre-se</NavBtnLink>
+            <NavBtnLink to='/step1'>Cadastrar</NavBtnLink>
           </NavBtn>
        
       </Nav>

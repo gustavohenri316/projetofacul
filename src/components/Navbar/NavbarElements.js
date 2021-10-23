@@ -4,10 +4,10 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: #000;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  padding: 0.1rem;
   z-index: 10;
 
   /* Third Nav */
@@ -19,10 +19,10 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 3rem;
   height: 100%;
   cursor: pointer;
-
+  margin-left: 40px;
   &.active {
     color: #15cdfc;
   }
@@ -63,7 +63,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-right: 24px;
+  margin-right: 40px;
 
   /* Third Nav */
   /* justify-content: flex-end;
@@ -77,13 +77,14 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #256ce1;
-  padding: 10px 22px;
+  padding: 15px 50px;
   color: #fff;
   outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  text-align: center;
 
   /* Second Nav */
   margin-left: 24px;
