@@ -22,16 +22,15 @@ const Navbar = () => {
           <Form className="d-flex" >
             <FormControl
               type="search"
-              placeholder="Search"
+              placeholder="            Pesquise aqui"
               className="me-2"
               aria-label="Search"
-              style={{borderRadius: "30px", width: "160px", height: "30px", color: "#FFF", backgroundColor: "#eeeeee", border: "none"}}
+              style={{borderRadius: "30px", width: "200px", height: "40px", color: "#C4C4C4", backgroundColor: "#eeeeee", border: "none"}}
+              
             />
-            <Button variant="outline-success"
-            style={{borderRadius: "30px", width: "60px", height: "38px", color: "#FFF", backgroundColor: "#0000ff", border: "none"}}>
-              <FaSearch/>
-            </Button>
+              
           </Form>
+          <FaSearch style={{width: "30px", height: "27px", marginLeft: "10px", color:"#FFF"}}/>
 
           <NavLink to="/eventos">Eventos</NavLink>
           <NavLink to="/rockinrio">RockInRio</NavLink>
