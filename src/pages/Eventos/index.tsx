@@ -8,3 +8,4 @@ export const Eventos = () => {
     )
 
 }
+export default Eventos

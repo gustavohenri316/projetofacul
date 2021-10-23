@@ -1,7 +1,7 @@
 .nav-logo {
-    background-image: url(/src/components//Navbar/logo.png);
+    background-image: url(/src/components//Navbar/outeside.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100px;
     height: 96px;
     background-size: contain;
     left: 140px;

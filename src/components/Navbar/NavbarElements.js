@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.1rem;
   z-index: 10;
-
+  align-items: center;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
@@ -26,6 +26,7 @@ export const NavLink = styled(Link)`
   &.active {
     color: #15cdfc;
   }
+  
 `;
 
 export const Bars = styled(FaBars)`
@@ -95,3 +96,11 @@ export const NavBtnLink = styled(Link)`
     color: #010606;
   }
 `;
+export const Img = styled.nav`
+display: flex;
+align-items: center;
+margin-left: 40px;
+margin-top: 60px;
+width: 182px;
+
+`

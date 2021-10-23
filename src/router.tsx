@@ -6,7 +6,7 @@ import { FormStep3 } from "./pages/Form/FormStep3";
 import { Home } from "./pages/Home";
 import { Cinema } from "./pages/Cinemas";
 import { Shows } from "./pages/Shows";
-import { Eventos } from "./pages/Eventos";
+import  { Eventos } from "./pages/Eventos";
 import { RockInRio } from "./pages/Rockinrio";
 
 export const Router = () => {
