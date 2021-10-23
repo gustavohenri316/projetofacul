@@ -1,0 +1,10 @@
+.nav-logo {
+    background-image: url(/src/components//Navbar/logo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 96px;
+    background-size: contain;
+    left: 140px;
+    display: flex;
+    align-items: center;
+}
