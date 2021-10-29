@@ -45,7 +45,7 @@ export const FormStep = () => {
                 <h1>Digite seus dados de Login</h1>
                 <p>Preencha com seus contatos para conseguirmos entrar em contato.</p>
 
-                <hr/>
+                
 
                 <label>
                     Qual seu e-mail?
@@ -65,7 +65,7 @@ export const FormStep = () => {
                     />
                 </label>
                
-                <Link to="/step1" className="backButton">Voltar</Link>
+                <Link to="/" className="backButton">Sair</Link>
                 <button onClick={handleNextStep}>Fazer Login</button>
             </C.Container>
         </ThemeLogin>

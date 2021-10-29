@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import * as C from './styles';
-import { Header } from '../Header';
+import { Header } from '../HeaderLogin';
 import { SidebarItem } from '../SidebarItem';
 import { useForm } from '../../contexts/FormContext';
 

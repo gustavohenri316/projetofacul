@@ -5,9 +5,10 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   background: #000;
   height: 100px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0.1rem;
+  
   z-index: 10;
   align-items: center;
   /* Third Nav */
@@ -19,7 +20,7 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 2rem;
+  padding: 20px;
   height: 100%;
   cursor: pointer;
   margin-left: 40px;
@@ -49,8 +50,8 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  /* Second Nav */
-  /* margin-right: 24px; */
+  /Second Nav */
+  margin-right: 24px; 
 
   /* Third Nav */
   /* width: 100vw;
@@ -101,6 +102,20 @@ display: flex;
 align-items: center;
 margin-left: 40px;
 margin-top: 60px;
+width: 182px;
+
+`
+export const Busca = styled.nav`
+display: flex;
+align-items: center;
+margin-left: 40px;
+width: 182px;
+
+`
+export const Icon = styled.nav`
+display: flex;
+align-items: center;
+margin-left: 10px;
 width: 182px;
 
 `

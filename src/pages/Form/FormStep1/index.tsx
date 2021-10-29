@@ -117,7 +117,7 @@ export const FormStep1 = () => {
                     />
                 </label>
                 <label>
-                    Sua idade da nascimento
+                    Sua data de nascimento
                     <input
                         type="date"
                         value={state.nasc}
